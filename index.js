@@ -5,7 +5,6 @@ const bodyParser = require('body-parser');
 const router = require('./src/router');
 
 
-
 // Create Express webapp
 const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
